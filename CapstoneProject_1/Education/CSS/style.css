@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color:white;
+    /* padding: 20px; */
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.navbar{
+    height: 13%;
+    width: 100%;
+    background-color:hsl(0, 7%, 92%);
+    padding: 20px;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 25%;
+    /* background-color: aqua; */
+}
+.responsive{
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+}
+.close{
+    height: 100%;
+    width: 35%;
+    text-align: right;
+}
+.education{
+    height: 200%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.menuicon{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 20px 50px;
+}
+.learning{
+    height: 200%;
+    width: 100%;
+    background-image: url('../images/classroom.jpg');
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.learning h1{
+    color: red;
+    font-size: 90px;
+}
+.learning p {
+    font-size: 20px;
+}
+.learning button , .little-more button{
+    height: 50px;
+    width: 200px;
+    background-color: rgb(124, 186, 31);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.future{
+    height: 120%;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+}
+.little-more{
+    height: 100%;
+    width: 50%;
+    padding: 80px;
+    /* text-align: justify; */
+    font-size: 20px;
+}
+.image1{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    padding: 60px;
+}
+.image1 img{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+.solutions {
+    height: 120%;
+    width: 100%;
+    display: flex;
+    padding: 50px;
+}
+.solutions button{
+    height: 50px;
+    width: 200px;
+    background-color:red;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.kids{
+    height: 180%;
+    width: 100%;
+    background-image: url('../images/kids1.jpg');
+    background-repeat: no-repeat;
+    background-size:contain ;
+    background-color:white;
+    position: relative;
+}
+.subs{
+    height: 30%;
+    width: 80%;
+    background-color: aqua;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    display: flex;
+}
+.subs p{
+    font-size: 20px;
+}
+.sub1 , .sub2 , .sub3 , .sub4 {
+    height: 100%;
+    width: 25%;
+    padding: 30px;
+    text-align: justify;
+    color: white;
+}
+.fa-solid {
+    font-size: 50px;
+    color:black;
+}
+.sub1{
+    background-color: rgba(32, 119, 177, 0.842);
+}
+.sub2{
+    background-color: rgb(17, 159, 17);
+}
+.sub3{
+    background-color: red;
+}
+.sub4{
+    background-color: rgb(234, 194, 18);
+    color: black;
+}
+.kids button{
+    height: 60px;
+    width: 200px;
+    background-color:red;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 900px;
+    left: 500px;
+}
+.testimonals{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(211, 211, 211);
+    padding: 50px;
+}
+.parents{
+    height: 70%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+.p1 , .p2 , .p3 {
+    height: 100%;
+    width: 33%;
+    padding: 30px;
+    background-color: white;
+}
+.parents hr {
+    height: 3px;
+    background-color: red;
+}
+.parents p , .parents h5{
+    color: #b3acac;
+}
+.about{
+    height: 90%;
+    width: 100%;
+    padding: 50px 300px 50px 300px;
+    background-color: rgb(97, 196, 97);
+    color: white;
+    font-size: 20px;
+}
+.about h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about button , .grid button{
+    height: 50px;
+    width: 230px;
+    background-color: rgb(235, 217, 13);
+    color: black;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.grid{
+    height: 220%;
+    width: 100%;
+    background-color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.up{
+    height: 75%;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    /* background-color: antiquewhite; */
+}
+.left{
+    height: 100%;
+    width: 30%;
+    background-color:rgb(227, 191, 10);
+    padding: 180px 30px 0 30px;
+    font-size: 20px;
+}
+.left h1{
+    font-size: 40px;
+}
+.right{
+    height: 100%;
+    width: 70%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.grid img{
+    height: 100%;
+    width: 100%;
+}
+.r1 , .r2 {
+    height: 100%;
+    width: 50%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.a , .b , .c , .d {
+    height: 50%;
+    width: 100%;
+    background-color: bisque;
+}
+.b{
+    background-color: white;
+    font-size: 50px;
+    padding: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.bottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.girl-img{
+    height: 100%;
+    width: 30%;
+    background-color: black;
+}
+.morbi{
+    height: 100%;
+    width: 70%;
+    background-color: red;
+    padding: 50px;
+    color: white;
+    font-size: 20px;
+}
+.banner{
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+.banner input{
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.banner textarea{
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+}
+td{
+    padding: 5px;
+}
+.banner button{
+    background-color: green;
+    text-align: center;
+    width: 450px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.footer{
+    background-color: rgb(68, 66, 66);
+    height: 40%;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    color: white;
+}
+.footer a{
+    color: skyblue;
+}
